@@ -337,7 +337,7 @@ function App() {
   return (
     <>
       <h1 className="text-3xl font-bold underline text-center my-10">
-        Vica Task
+        Vica APIs
       </h1>
 
       {/* Register Section */}
