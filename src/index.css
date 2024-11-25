@@ -31,27 +31,59 @@ margin: 0 auto;
   padding: 0.3rem;
 }
 
-.register {
+.register div.flex {
   border: green 1px solid;
   background-color: #32c532;
   padding: 0.3rem;
   border-radius: 25px;
+  justify-content: space-between;
 }
-.login {
+.login div.flex {
   border: green 1px solid;
   background-color: #55f;
   padding: 0.3rem;
   border-radius: 25px;
+  justify-content: space-between;
 }
-.show {
+.logout div.flex {
+  border: green 1px solid;
+  background-color: rgb(155, 175, 41);
+  padding: 0.3rem;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+.show div.flex {
   border: green 1px solid;
   background-color: rgb(139, 38, 167);
   padding: 0.3rem;
   border-radius: 25px;
+  justify-content: space-between;
 }
-.add {
+.add div.flex {
   border: green 1px solid;
   background-color: rgb(225, 168, 62);
   padding: 0.3rem;
   border-radius: 25px;
+  justify-content: space-between;
+}
+.show-item div.flex {
+  border: green 1px solid;
+  background-color: rgb(62, 61, 57);
+  padding: 0.3rem;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+.update-item div.flex {
+  border: green 1px solid;
+  background-color: rgb(109, 30, 40);
+  padding: 0.3rem;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+.delete-item div.flex {
+  border: green 1px solid;
+  background-color: rgb(24, 92, 116);
+  padding: 0.3rem;
+  border-radius: 25px;
+  justify-content: space-between;
 }
